@@ -1,0 +1,18 @@
+# Ignores the build files and dependencies
+build/
+bin/
+
+# Ignores dependencies
+_deps/
+vendors/
+
+# Ignores neovim and LSP
+compile_commands.json
+*.swp
+*.swo
+undo/
+.netrwhist
+
+# Ignores the system stuff
+.cache/
+.DS_Store
