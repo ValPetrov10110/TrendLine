@@ -1,4 +1,4 @@
-add_executable(TrendLine main.cpp)
+add_executable(TrendLine main.cpp time.cpp)
 
 target_link_libraries(
 	TrendLine
@@ -7,3 +7,4 @@ target_link_libraries(
 	ftxui::dom
 	ftxui::component
 )
+
